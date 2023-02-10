@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: myFirstFont;
-  src: url("/assets/AvertaDemoPECuttedDemo-Regular.otf");
+  font-family: avertaFont;
+  src: url("./../AvertaDemoPECuttedDemo-Regular.otf");
 }
 @media (min-width: 1440px) {
   .container {
@@ -14,7 +14,7 @@
   }
 }
 body {
-  font-family: myFirstFont;
+  font-family: avertaFont;
   background-color: #fefefe;
 }
 
@@ -223,8 +223,7 @@ section.help-your-business .container .flex .business-items .flex {
   gap: 34px;
 }
 section.help-your-business .container .flex .business-items .flex .card-group .card {
-  max-width: 308px;
-  width: 100%;
+  width: 308px;
   height: 379px;
   border: none;
   border-radius: 40px;

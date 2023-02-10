@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: myFirstFont;
-  src: url('/assets/AvertaDemoPECuttedDemo-Regular.otf');
+  font-family: avertaFont;
+  src: url('./../AvertaDemoPECuttedDemo-Regular.otf');
 }
 
 @media (min-width: 1440px) {
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: myFirstFont;
+  font-family: avertaFont;
   background-color: #fefefe;
 }
 
@@ -255,8 +255,7 @@ section.help-your-business {
           gap: 34px;
           .card-group {
             .card {
-              max-width: 308px;
-              width: 100%;
+              width: 308px;
               height: 379px;
               border: none;
               border-radius: 40px;
